@@ -1,0 +1,93 @@
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li{
+float: left;
+padding:5px;
+
+}
+li a{
+display: block;
+text-align: center;
+text-decoration: none;
+color: black;
+font-family: 'Play', sans-serif;
+letter-spacing: 2px;
+
+}
+li a:hover{
+
+
+border-bottom: 3px solid #A9A9A9;
+}
+.head{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 20px;
+margin-left: 25px;
+margin-right: 25px;
+
+}
+.cname{
+text-height: 20px;
+letter-spacing: 5px;
+font-family: 'Cabin', sans-serif;
+
+}
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-size: 25px;
+}
+hr{
+color:gray;
+}
+.org{
+height:400px;
+width:520px;
+border-radius:10px;
+}
+.tt{
+color: #A9A9A9;
+font-size: 20px;
+font-family: 'Pangolin', cursive;
+letter-spacing: 2px;
+margin-left: 40px;
+}
+.na{
+color: black;
+font-size: 20px;
+font-family: 'Rokkitt', serif;
+}
+.member{
+margin: 20px;
+height: 420px;
+width: 540px;
+}
+.ab{
+margin-left: 25px;
+}
+.bc{
+color: gray;
+letter-spacing: 3px;
+font-family: 'Play', sans-serif;
+font-size: 40px;
+}
+.bcont{
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 20px;
+margin-left: 25px;
+margin-right: 25px;
+}
+.member:hover .org{
+opacity: 0.4;
+}
